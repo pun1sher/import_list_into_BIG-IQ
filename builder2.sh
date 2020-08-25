@@ -7,12 +7,12 @@ MY_COMMAND+='{
                             "address": "'
 MY_COMMAND+=$1
 MY_COMMAND+='",
-                            "userName": " '
+                            "userName": "'
 MY_COMMAND+=$2
 MY_COMMAND+='",
                             "password": "'
 MY_COMMAND+=$3
-MY_COMMAND+=',
+MY_COMMAND+='",
                             "httpsPort": 443,
                             "clusterName": "foo",
                             "useBigiqSync": true,
@@ -39,7 +39,7 @@ MY_COMMAND+=',
             "enabled": true,
             "zone": "default"
     }
-}'
+"}'
 #MY_COMMAND+=$1
 #MY_COMMAND+=" "
 #MY_COMMAND+=$2

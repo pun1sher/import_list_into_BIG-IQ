@@ -1,0 +1,19 @@
+{
+    "name": "controller1",
+    "deviceDetails": [{
+                    "newDevice": {
+                            "address": "10.255.251.125",
+                            "userName": "admin",
+                            "password": "admin",
+                            "httpsPort": 443
+                    },
+                    "moduleList": [{
+                                    "module": "adc_core"
+                            }
+                    ]
+            }
+    ],
+    "conflictPolicy": "USE_BIGIQ",
+    "versionedConflictPolicy": "USE_BIGIQ",
+    "deviceConflictPolicy": "USE_BIGIP"
+}
